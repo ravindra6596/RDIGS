@@ -1,0 +1,158 @@
+header {
+    position: relative;
+    background-color: black;
+    height: 80vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  header .ourteam {
+    font-weight: 900;
+  }
+  header .title{
+  font-weight: 900;
+  }
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+  }
+/* css for text animation */
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;  
+  }
+.heading-primary {
+    color:white;
+    text-transform: uppercase;
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 10px;
+   /*  Animation decalaration   */
+    animation-name: moveInleft;
+    animation-duration: 3s;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 15.9px;
+    padding: 30px;
+    animation-name: moveInRight;
+    animation-duration: 3s;
+}
+
+@keyframes moveInleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+.know-more{
+    color:white;
+    background-color:#4154f1;
+    width: 200px;
+    border-radius: 25px;
+    height: 50px;
+}
+/* css for modal */
+.modal-head{
+    width:100%;
+    height:100%;
+    height: 500px;
+    background-image:url('../../images/dummy.png') ;
+}
+.modal-head h1{
+    padding: 30px;
+}
+.modal-head p{
+    color: black;
+    padding: 20px;
+    font-weight: 700;
+}
+.Email-modal{
+    width: 80%;
+    border-radius: 25px;
+    height: 50px;
+    border: 2px solid black;
+    padding: 20px;
+}
+.checkmodal{
+    border: 2px solid black;
+    float: left;
+    margin-top: 28px;
+}
+.modal-submit{
+    color:white;
+    width: 50%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #1c88c4;
+}

@@ -1,0 +1,22 @@
+.owl-stage{
+    transition: all 2s ease 0s;
+     width: 4180px;
+      transform: translate3d(-1520px, 0px, 0px);
+}
+.owl-item .clone{
+    width: 350px;
+     margin-right: 30px;
+}
+.user-img{
+    background-image:url(images/xperson_3.jpg.pagespeed.ic.Cln-jaM1jK.webp)
+}
+.owl-item .cloned{
+    width: 350px;
+     margin-right: 30px;
+}
+.user-img{
+    background-image:url(images/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp)
+}
+.user-img{
+    background-image:url(images/xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp.webp)
+}

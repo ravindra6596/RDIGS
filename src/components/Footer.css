@@ -1,0 +1,14 @@
+
+.footer-cont{
+    background-color: black;
+
+}
+  /* css for undrline  */
+.underline:hover:before {
+          
+    background: blue;
+}
+.underline:hover{
+
+   text-decoration: none;
+}

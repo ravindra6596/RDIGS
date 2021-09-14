@@ -1,0 +1,83 @@
+@media (min-width: 768px){
+    .section-lg {
+        padding: 0px 0px;
+
+    }
+}
+ .section-lg {
+    text-align: center !important;
+    background-image: linear-gradient(to left, rgb(43, 50, 53) 0%, rgb(48, 166, 233) 100%);
+}
+.heading-our{
+    margin-top:20px;
+}
+.title-our{
+    margin-top:20px;
+}
+.wow-outer {
+    position: relative;
+    overflow: hidden;
+}
+.wow-outer .heading-our{
+    font-size: 30px;
+    font-weight: 700;
+    padding:20px;
+   
+}
+.wow-outer p{
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    font-weight: 700;
+    font-size: 20px;
+    font-weight: bold;
+}
+.wow-outer span{
+    font-size: 20px;
+}
+.wow-outer h3{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+@media (min-width: 1200px){
+wow-outer h3 {
+    font-size: 36px;
+    line-height: 1.33333;
+    }
+}
+.slideInUp{
+    visibility: visible; animation-name: slideInUp;
+}
+.slideInDown{
+    visibility: visible; 
+    animation-name: slideInDown;
+}
+.slideInLeft{
+    visibility: visible;
+    animation-delay: 0.05s;
+    animation-name: slideInLeft;
+}
+.outerdiv{
+    padding: 10px;
+}
+.card-border{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,2);
+    background-color: white;
+    border-radius: 10px;
+    padding:10px;
+}
+.title-audience{
+    padding:20px;
+}
+.article-div i{
+    font-size: 30px;
+    margin-top: 15px;
+    color: blue;
+    line-height: 1;
+}
+
