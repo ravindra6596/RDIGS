@@ -1,6 +1,4 @@
-a{
-    color: black;
-}
+
 .topnavbar{
     background-image: linear-gradient(to left, rgb(43, 50, 53) 0%, rgb(48, 166, 233) 100%);
 }
@@ -37,6 +35,8 @@ a{
 
 
 
+
+
 /* Navbar css */
 .headlogo{
     height: 60px;
@@ -60,6 +60,8 @@ a{
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav {
     color:royalblue;
 }
+.navbar-dark .navbar-nav .nav-link a{color: black;}
+.navbar-dark .navbar-nav .nav-link a:hover{color: royalblue;}
 
 /* Drop down css */
 .dropdown {
@@ -90,6 +92,7 @@ a{
       display: flex;
       margin-top: 10%;
   }
+  .blogmodelicon a{color: black;}
   .blogmodelicon i{
       font-size: 20px;
     color:#30a6e9;}

@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import Header from "../Header/header";
 import './contact.css';
-
+import indiaflag from "../../img/india.png";
+import unitedflag from "../../img/united-states.png";
+import Button from "../ButtonGroup/Button/button";
+import Buttonclear from "../ButtonGroup/ButtonClear/buttonclear";
 
 
 const contact =()=>{
@@ -30,8 +33,8 @@ const contact =()=>{
                                 <input type="number" class="form-controlall" aria-describedby="emailHelp" placeholder="Enter Your Phone"/>
                             </div>
                             <div className="row" style={{padding:'4%'}}>
-                                <div className="col"> <button type="submit" class="btn btn btnclear">CLEAR</button></div>
-                                <div className="col btngetintouch"> <button type="submit" class="btn btn-primary">GET IN TOUCH</button></div>
+                                <div className="col"> <Buttonclear text="Clear"/></div>
+                                <div className="col btngetintouch"><Button text="GET IN TOUCH" /></div>
                             </div>
                         </form>
                     </div>
@@ -50,7 +53,8 @@ const contact =()=>{
                         {/* <div className="conaddresdiv" > */}
                            <h2 className="contacthead"  data-aos="fade-up" >Contact Us</h2>
                             <p className="consubtxt">Get in Touch with us to embark on a path of success</p>
-                            <h3  className="conindiaoffice" style={{color:'#30a6e9'}}  data-aos="fade-up">India Office (HQ)</h3>
+                                <h3  className="conindiaoffice" style={{color:'#30a6e9'}}  data-aos="fade-up">
+                                <img src={indiaflag}  className="flagimg" />India Office (HQ)</h3>
                             <p className="conIndaddress"> 
                             <span><i class="fa fa-map-marker" style={{fontSize:'25px',color:'#30a6e9',marginRight:'3%'}}></i></span>
                                 402, Vascon Garnets Bay,Besides Hotel Four Points By Sheraton,<br/>Viman Nagar, Pune - 411014.
@@ -64,7 +68,8 @@ const contact =()=>{
                                 contact@rdigs.com
                              </p>
                     {/* USA Section */}
-                             <h3  className="conUSAoffice" style={{color:'#30a6e9'}}  data-aos="fade-up">USA Office</h3>
+                             <h3  className="conUSAoffice" style={{color:'#30a6e9'}}  data-aos="fade-up">
+                                 <img src={unitedflag} className="flagimg" />USA Office</h3>
                             <p> 
                             <span><i class="fa fa-map-marker" style={{fontSize:'25px',color:'#30a6e9',marginRight:'5%'}}></i></span>      
                             919 North Market Street, Suite 950, Wilmington, Delaware 19801.

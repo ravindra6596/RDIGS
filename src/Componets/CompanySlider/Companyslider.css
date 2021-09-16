@@ -1,0 +1,16 @@
+.image-clientslider{
+  width:100%;
+  height:100%;
+  margin:20px;
+  overflow-x: hidden;
+}
+.image-clientslider img{
+  width:150px;
+  /* height:100px; */
+  margin: 20px;
+  overflow-x: hidden;
+}
+.clients{
+  overflow-x: hidden;
+  /* background-image: linear-gradient(to left, rgb(43, 50, 53) 0%, rgb(48, 166, 233) 100%);  */
+}

@@ -1,0 +1,94 @@
+.counts {
+    padding: 70px 0 60px;
+  }
+.count-box {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  } 
+.count-box i {
+    font-size: 42px;
+    line-height: 0;
+    margin-right: 20px;
+    color: #4154f1;
+  }
+ 
+   .count-box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #0b198f;
+    display: contents;
+  }
+  
+   .count-box p {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+  }
+.Happy-Clients i{
+    color: #ee6c20;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 42px;
+    font-size: 50px;
+}
+.Projects i{
+    color: #15be56;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 42px;
+    font-size: 50px;
+}
+.Hours-Support i{
+    color:#bb0852;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 42px;
+    font-size: 50px;
+}
+.Hard-Workers i{
+    color:#4154f1;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 42px;
+    font-size: 50px;
+}
+ .counter-p p{
+    font-size: 20px;
+    font-weight: 600;
+ } 
+.count-box{
+    position: relative;
+}
+/* .icon-circle{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-top: -25px;
+  margin-bottom: -25px;
+} */
+.counts .count-box i {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  top: 115px;
+  left: 25%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  background: #fff;
+  color: #e03a3c;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  box-shadow: 0px 2px 25px rgb(0 0 0 / 10%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

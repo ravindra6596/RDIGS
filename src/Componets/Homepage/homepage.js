@@ -1,15 +1,24 @@
 import React, { useState } from "react";
 import './homestyle.css';
 import Header from "../Header/header";
+import Banner from "../Banner/Banner";
+import Footer  from "../Footer/Footer";
 
-import provenimg from '../../img/pro1.jfif';
-import provenimg2 from '../../img/pro2.jfif';
-import leadimg1 from '../../img/pro2.png';
+import provenimg from '../../img/provenmethod1.jpg';
+import provenimg2 from '../../img/provenmethod2.jpg';
+import provenimg3 from '../../img/provenmethod3.jpg';
+import leadimg1 from '../../img/Human.jpg';
+
+
 import promoteimg1 from '../../img/prom-brandimg1.jpg';
 import promoteimg2 from '../../img/prom-brandimg1.jpg';
 import promoteimg3 from '../../img/prom-brandimg3.jpg';
 import {Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap';
-import { method } from "../../assets/Data/data";
+// import { method } from "../../assets/Data/data";
+import myvideo from "../../video/bannervideo.mp4";
+import Counter from "../Counter/Counter";
+import Testimonial from "../Testimonial/Testimonial";
+import Companyslider from "../CompanySlider/Companyslider";
 
 
 const Home =()=>{
@@ -39,6 +48,7 @@ const Home =()=>{
 
 
         <Header/>
+        <Banner/>
 
         {/* proven Mothod Image  Modals */}
             <Modal isOpen={modal} toggle={toggle}>
@@ -116,7 +126,7 @@ const Home =()=>{
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div class="portfolio-wrap">
-                    <img src={provenimg} class="img-fluid" alt=""/>
+                    <img src={provenimg2} class="img-fluid" alt=""/>
                     <div class="portfolio-info">
                         <h4>Web 3</h4>
                         <p>Web</p>
@@ -130,7 +140,7 @@ const Home =()=>{
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                <img src={provenimg2} class="img-fluid" alt=""/>
+                <img src={provenimg3} class="img-fluid" alt=""/>
                 <div class="portfolio-info">
                     <h4>App 2</h4>
                     <p>App</p>
@@ -144,7 +154,7 @@ const Home =()=>{
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                 <div class="portfolio-wrap">
-                <img src={provenimg} class="img-fluid" alt=""/>
+                <img src={provenimg3} class="img-fluid" alt=""/>
                 <div class="portfolio-info">
                     <h4>Card 2</h4>
                     <p>Card</p>
@@ -172,7 +182,7 @@ const Home =()=>{
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src={provenimg2} class="img-fluid" alt=""/>
+              <img src={provenimg} class="img-fluid" alt=""/>
               <div class="portfolio-info">
                 <h4>App 3</h4>
                 <p>App</p>
@@ -194,27 +204,28 @@ const Home =()=>{
    {/* Homepage Were Today section2 coding */}
          <section data-aos="fade-up">
              <div className="container-fluid homepagese2cont"  data-aos="fade-down" data-aos-delay="200" >
-             <h2 className="werewetxt">Where We'Re Today's</h2>
+                 <div className="container">
                  <div className="row">
                      <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6" data-aos="fade-up">
                     <div class="embed-responsive embed-responsive-16by9 videose2">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen style={{borderRadius:'20px'}}></iframe>
+                        <iframe class="embed-responsive-item" src={myvideo} allowfullscreen style={{borderRadius:'20px'}}></iframe>
                     </div>
 
                      </div>
                      <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 " style={{padding:'3%'}} data-aos="fade-right">
-                        <h1 style={{color:'white'}}>Where We're Today</h1>
+                        <h1 className="homewherewe" style={{color:'white'}}>Where We're Today</h1>
                         <p style={{color:'white'}}>Pellentesque id erat venenatis, rhoncus tellus ac, laoreet mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                         <p style={{color:'white'}}>Interdum et malesuada fames ac ante ipsum primis in faucibus. In hac habitasse platea dictumst. In tincidunt rutrum ligula, ac cursus arcu elementum quis. Phasellus consectetur sagittis ex vitae porttitor.</p>
                         
                      </div>                   
+                 </div>
                  </div>
              </div>                   
         </section>
 
     {/* Homepage Promote your section3 coding */}
         <section id="portfolio" class="portfolio">
-            <div class="container-fluid" data-aos="fade-up">
+            <div class="container" data-aos="fade-up">
             <div class="section-title">
                  <h2 className="provmethodtxt">Proven Your branded Content and engage potential buyers across multiple channel</h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur exaliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
@@ -278,7 +289,7 @@ const Home =()=>{
             </div>
             <div class="col-lg-2 col-md-2 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                <img src={promoteimg3} class="img-fluid" alt=""/>
+                <img src={promoteimg1} class="img-fluid" alt=""/>
                 <div class="portfolio-info">
                     <h4>App 2</h4>
                     <p>App</p>
@@ -309,7 +320,7 @@ const Home =()=>{
     
      {/* Homepage Promote your section4 coding */}
                 <section className="homesec4backimg" >
-                    <div className="container-fluid " data-aos="fade-up" data-aos-delay="200">
+                    <div className="container" data-aos="fade-up" data-aos-delay="200">
                         <h2 className="provmethodtxt">Offering</h2>
                         <div className="row"  data-aos="fade-up" data-aos-delay="200" style={{margin:'5%'}}>
                             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6" style={{marginTop:'3%',justifyContent:'center'}}   data-aos="fade-up" data-aos-delay="200">
@@ -325,7 +336,7 @@ const Home =()=>{
                         <div style={{borderBottom:'1px solid #30a6e9'}}></div>
                         <div className="row"  data-aos="fade-up" data-aos-delay="200" style={{margin:'5%',paddingBottom:'3%'}}>
                             <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5" >
-                             <img src={leadimg1} className="homesec3img" alt=""/>
+                             <img src={leadimg1} className="homesec3brandimg" alt=""/>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 " style={{marginTop:'3%',justifyContent:'center'}}>
                                 <p  data-aos="fade-up" data-aos-delay="200">BEST SOLUTION FOR YOUR NEXT PROJECT</p>
@@ -336,6 +347,10 @@ const Home =()=>{
                         </div>
                     </div>                   
                 </section>
+                <Counter/>
+                <Testimonial/>
+                <Companyslider/>
+                <Footer/>
 
     </>
 )

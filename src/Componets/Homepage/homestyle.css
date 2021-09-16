@@ -126,21 +126,22 @@
   }
 .videose2{
   margin-bottom: 8%!important;
+  margin-top: 10%;
 }
-  .werewetxt{
-    padding: 2%;
-    color:white;
-    font-weight: bold; 
-    position: relative;
-    animation-name: example;
-    animation-duration: 4s;
-    }
+.homewherewe{margin-top: 15%;}
+
   .homesec4backimg{
       background-image:url("https://moreno.brickthemes.com/wp-content/uploads/2019/05/bg.jpg");
       background-size: cover;
       background-repeat: no-repeat;
   }
   .homesec3img{
+    margin-top: 10%;
+    animation: MoveUpDown 1s linear infinite;
+    position: absolute;
+  }
+  .homesec3brandimg{
+    margin-left: -200px;
     margin-top: 10%;
     animation: MoveUpDown 1s linear infinite;
     position: absolute;
@@ -166,6 +167,7 @@
   position: relative;
   animation-name: example;
   animation-duration: 4s;
+  padding: 3%;
   }
 @keyframes example {
   0%   { left:0px; top:0px;}

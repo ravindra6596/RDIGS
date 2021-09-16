@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import './Headerstyle.css';
 import logoimg from '../../img/logo.png';
-// import Navbar from 'react-bootstrap'
 import { Nav,NavDropdown,Container,Navbar,NavLink } from 'react-bootstrap';
-import Banner from "../Banner/banner";
 import {Modal, ModalHeader, ModalBody, ModalFooter,Button} from 'reactstrap';
 import { Link } from "react-router-dom";
 
@@ -17,7 +15,7 @@ const Header =()=>{
 
     return(
     <>
-
+        
 
         {/* Header Modals */}
             <Modal isOpen={modal} toggle={toggle}>
@@ -29,7 +27,7 @@ const Header =()=>{
             </Modal>
         
          {/* Topnav coding */}
-        <section>
+        <section className="fixed-top">
         <div className="container-fluid topnavbar">
             <div className="row headfirstrow">
                 <div class="col-lg-9 col-md-9 col-sm-9 topnavcol1">
@@ -45,13 +43,13 @@ const Header =()=>{
             </div>
             {/* Navbar coding */}
                
-            <Navbar collapseOnSelect expand="lg"  variant="dark" className="mainnavbar" sticky="top">
+            <Navbar  collapseOnSelect expand="lg"  variant="dark" className="mainnavbar ">
             <Container>
             <Navbar.Brand><img src={logoimg} className="headlogo"></img></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                <Nav.Link ><Link to="/homepage">HOME</Link></Nav.Link>
+                <Nav.Link ><Link to="/home">HOME</Link></Nav.Link>
                 <div class="dropdown">
                  <Nav.Link><span >SERVICE</span></Nav.Link>
                     <div class="dropdown-content">
@@ -178,10 +176,11 @@ const Header =()=>{
             </Navbar.Collapse>
             </Container>
             </Navbar>
+          
         </section>
               
 
-        <Banner/>
+       
        
 
 
