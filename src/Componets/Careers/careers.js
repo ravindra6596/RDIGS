@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import './careers.css';
+import Footer from "../Footer/Footer";
+import CareerAccordian from "../Careers/CareerAccordian/careeraccordian";
 import Headers from "../Header/header";
 import career1 from "../../img/career/career-1.png";
 import career2 from "../../img/career/career-2.png";
@@ -66,14 +68,13 @@ const careers =()=>{
                         </div>
                     </div> 
                 </div>
-
             </div>
-            
-           
-        
+
+        <CareerAccordian/>          
+    <Footer/> 
 
 
-    </>
+</>
 )
 }
 export default careers;

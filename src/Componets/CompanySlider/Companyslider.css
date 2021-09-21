@@ -6,11 +6,19 @@
 }
 .image-clientslider img{
   width:150px;
-  /* height:100px; */
   margin: 20px;
   overflow-x: hidden;
 }
 .clients{
   overflow-x: hidden;
-  /* background-image: linear-gradient(to left, rgb(43, 50, 53) 0%, rgb(48, 166, 233) 100%);  */
+}
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+  .image-clientslider{
+    margin-left: 45px;
+    margin-right: 51px;}
+}
+@media only screen and (min-width: 401px) and (max-width: 450px) {
+  .image-clientslider{
+    margin-left: 70px;
+    margin-right: 55px;}
 }

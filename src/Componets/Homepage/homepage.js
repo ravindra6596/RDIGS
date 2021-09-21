@@ -14,11 +14,12 @@ import promoteimg1 from '../../img/prom-brandimg1.jpg';
 import promoteimg2 from '../../img/prom-brandimg1.jpg';
 import promoteimg3 from '../../img/prom-brandimg3.jpg';
 import {Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap';
-// import { method } from "../../assets/Data/data";
 import myvideo from "../../video/bannervideo.mp4";
 import Counter from "../Counter/Counter";
 import Testimonial from "../Testimonial/Testimonial";
 import Companyslider from "../CompanySlider/Companyslider";
+import About from "../About/about";
+import VissionMission from "../VissionMission/vission";
 
 
 const Home =()=>{
@@ -110,7 +111,7 @@ const Home =()=>{
 
             <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="col-lg-4 col-md-4 col-sm-4 portfolio-item filter-app">
                     <div class="portfolio-wrap">
                         <img src={provenimg} class="img-fluid" alt=""/>
                         <div class="portfolio-info">
@@ -124,7 +125,7 @@ const Home =()=>{
                     </div>
                  </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="col-lg-4 col-md-4 col-sm-4 portfolio-item filter-web">
                     <div class="portfolio-wrap">
                     <img src={provenimg2} class="img-fluid" alt=""/>
                     <div class="portfolio-info">
@@ -138,7 +139,7 @@ const Home =()=>{
                     </div>
                 </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-4 col-sm-4 portfolio-item filter-app">
                 <div class="portfolio-wrap">
                 <img src={provenimg3} class="img-fluid" alt=""/>
                 <div class="portfolio-info">
@@ -152,7 +153,7 @@ const Home =()=>{
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="col-lg-4 col-md-4 col-sm-4 portfolio-item filter-card">
                 <div class="portfolio-wrap">
                 <img src={provenimg3} class="img-fluid" alt=""/>
                 <div class="portfolio-info">
@@ -166,7 +167,7 @@ const Home =()=>{
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="col-lg-4 col-md-4 col-sm-4 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src={provenimg2} class="img-fluid" alt=""/>
               <div class="portfolio-info">
@@ -180,7 +181,7 @@ const Home =()=>{
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-4 col-sm-4 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src={provenimg} class="img-fluid" alt=""/>
               <div class="portfolio-info">
@@ -200,9 +201,8 @@ const Home =()=>{
     {/* End of section1 */}
 
        
-       
-   {/* Homepage Were Today section2 coding */}
-         <section data-aos="fade-up">
+  
+         {/* <section data-aos="fade-up">
              <div className="container-fluid homepagese2cont"  data-aos="fade-down" data-aos-delay="200" >
                  <div className="container">
                  <div className="row">
@@ -221,7 +221,7 @@ const Home =()=>{
                  </div>
                  </div>
              </div>                   
-        </section>
+        </section> */}
 
     {/* Homepage Promote your section3 coding */}
         <section id="portfolio" class="portfolio">
@@ -233,7 +233,7 @@ const Home =()=>{
             
             <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                <div class="col-lg-2 col-md-2 portfolio-item filter-app">
+                <div class="col-lg-2 col-md-2 col-sm-4 portfolio-item filter-app">
                     <div class="portfolio-wrap" >
                         <img src={promoteimg1} class="img-fluid" alt=""/>
                         <div class="portfolio-info">
@@ -247,7 +247,7 @@ const Home =()=>{
                     </div>
                  </div>
 
-                <div class="col-lg-2 col-md-2 portfolio-item filter-web">
+                <div class="col-lg-2 col-md-2 col-sm-4 portfolio-item filter-web">
                     <div class="portfolio-wrap">
                     <img src={promoteimg3} class="img-fluid" alt=""/>
                     <div class="portfolio-info">
@@ -261,7 +261,7 @@ const Home =()=>{
                     </div>
                 </div>
 
-            <div class="col-lg-2 col-md-2 portfolio-item filter-app">
+            <div class="col-lg-2 col-md-2 col-sm-4 portfolio-item filter-app">
                 <div class="portfolio-wrap">
                 <img src={promoteimg1} class="img-fluid" alt=""/>
                 <div class="portfolio-info">
@@ -274,7 +274,7 @@ const Home =()=>{
                 </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-2 portfolio-item filter-app">
+            <div class="col-lg-2 col-md-2 col-sm-4 portfolio-item filter-app">
                 <div class="portfolio-wrap">
                 <img src={promoteimg3} class="img-fluid" alt=""/>
                 <div class="portfolio-info">
@@ -287,7 +287,7 @@ const Home =()=>{
                 </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-2 portfolio-item filter-app">
+            <div class="col-lg-2 col-md-2 col-sm-4 portfolio-item filter-app">
                 <div class="portfolio-wrap">
                 <img src={promoteimg1} class="img-fluid" alt=""/>
                 <div class="portfolio-info">
@@ -300,7 +300,7 @@ const Home =()=>{
                 </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-2 portfolio-item filter-app">
+            <div class="col-lg-2 col-md-2 col-sm-4 portfolio-item filter-app">
                 <div class="portfolio-wrap">
                 <img src={promoteimg3} class="img-fluid" alt=""/>
                 <div class="portfolio-info">
@@ -317,8 +317,10 @@ const Home =()=>{
             </div>
             </div>
         </section>
+        <About/>
+        <VissionMission/>
     
-     {/* Homepage Promote your section4 coding */}
+     {/* Homepage Promote your section4 coding
                 <section className="homesec4backimg" >
                     <div className="container" data-aos="fade-up" data-aos-delay="200">
                         <h2 className="provmethodtxt">Offering</h2>
@@ -346,10 +348,10 @@ const Home =()=>{
                             </div>                   
                         </div>
                     </div>                   
-                </section>
+                </section> */}
                 <Counter/>
-                <Testimonial/>
                 <Companyslider/>
+                <Testimonial/>
                 <Footer/>
 
     </>

@@ -7,20 +7,20 @@ const Counter =()=>{
         <section id="counts" className="counts">
         <div className="container" data-aos="fade-up">
   
-          <div className="row gy-4">
-          <div className="col-lg-4 col-md-6 col-sm-4 counter-p">
+          <div className="row ">
+          <div className="col-lg-4 col-md-4 col-sm-4 counter-p">
               <div className="count-box">
                 <div>
                   <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
-                  <h2>Founded In</h2>
+                  <h2 className="counter_founded">Founded In</h2>
                   <CountUp start={2013} end={2021} duration={5}>
                 </CountUp>
                 <span className="counter-plus">+</span>
-                  <p>YOUR GROWTH IS OUR SUCCESS...</p>
+                  <p className="coungrowth">YOUR GROWTH IS OUR SUCCESS...</p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6 col-sm-2 counter-p">
+            <div className="col-lg-2 col-md-4 col-sm-4 counter-p">
               <div className="count-box Happy-Clients">
                      <i className="fa fa-smile-o"></i>
                 <div className="text-center para-icons">
@@ -32,7 +32,7 @@ const Counter =()=>{
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6 col-sm-2 counter-p">
+            <div className="col-lg-2 col-md-4 col-sm-4 counter-p">
               <div className="count-box Projects">
                 <i className="fa fa-newspaper-o"></i> 
                 <div>
@@ -44,7 +44,7 @@ const Counter =()=>{
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6 col-sm-2 counter-p">
+            <div className="col-lg-2 col-md-4 col-sm-4 counter-p">
               <div className="count-box Hours-Support">
                 <i className="fa fa-headphones"></i>
                 <div>
@@ -56,7 +56,7 @@ const Counter =()=>{
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6 col-sm-2 counter-p">
+            <div className="col-lg-2 col-md-4 col-sm-4 counter-p">
               <div className="count-box Hard-Workers">
                   <i className="fa fa-user"></i>
                 <div>

@@ -68,26 +68,22 @@
     font-size: 18px;
     color: #111111;
   }
-  
   .team .member .member-info span {
     display: block;
     font-size: 13px;
     font-weight: 400;
     color: #30a6e9;
   }
-  
   .team .member .member-info p {
     font-size: 14px;
     line-height: 26px;
     color: #777777;
   }
-  
-  .team .member:hover .social {
+.team .member:hover .social {
     opacity: 1;
     bottom: 15px;
   }
-  
-  .btn03 {
+.btn03 {
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -145,9 +141,5 @@
     width: 40px;
     height: 40px;
 }
-.btn03:hover .buttons {
-    bottom: 50%;
-}
-.btn03:hover .ovrly {
-    top: 0;
-}
+.btn03:hover .buttons { bottom: 50%;}
+.btn03:hover .ovrly { top: 0;}

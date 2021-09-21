@@ -16,16 +16,41 @@ const Testimonial=()=>{
         autoplay: true,
         autoplaySpeed: 2000,
         variableWidth: true,
-        responsive: [
-          {
-            breakpoint: 767,
-            settings: {
-              draggable: true,
-              swipeToSlide: true,
-              touchMove: true
-            }
-          }
-        ]
+    //     responsive: [
+            
+    //         {
+    //           breakpoint: 1024,
+    //           settings: {
+    //             slidesToShow: 3,
+    //             slidesToScroll: 3,
+    //             infinite: true,
+    //             dots: true
+    //           }
+    //         },
+    //         {
+    //           breakpoint: 600,
+    //           settings: {
+    //             slidesToShow: 2,
+    //             slidesToScroll: 2
+    //           }
+    //         },
+    //         {
+    //           breakpoint: 480,
+    //           settings: {
+    //             slidesToShow: 1,
+    //             slidesToScroll: 1
+    //           }
+              
+    //         },
+    //         {
+    //             breakpoint: 320,
+    //              settings: {
+    //               slidesToShow: 1,
+    //                slidesToScroll: 1
+    //                 }    
+    //         }
+          
+    // ]
       };
  
 
@@ -42,14 +67,13 @@ const Testimonial=()=>{
                     </div>
                 </div> 
             </div>
-
         </section>
         <section className="card-top">
             <Slider {...settings} className="newtestislider">
              <div className="container">
                  <div className="row">
                  <div className="col">
-                        <div className="  testimonial-card"> 
+                    <div className="  testimonial-card"> 
                         <div className="testitem" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" >
                             <div className="testimony-wrap py-4">
                                 <div className="icon d-flex align-items-center justify-content-center  item-i">
@@ -89,31 +113,37 @@ const Testimonial=()=>{
                                                 <span className="testprodesi">Marketing Manager</span>
                                             </div>
                                         </div>
-                                        </div>
+                                    </div>
                                     </div>
                             </div> 
                         </div> 
                     </div>
-  
-                <div className="  testimonial-card"> 
-                <div className="item" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                    <div className="testimony-wrap py-4">
-                        <div className="icon d-flex align-items-center justify-content-center  item-i">
-                            <i className="fa fa-quote-left"/>
-                            </div>
-                            <div className="text">
-                                <p className="testcardtxt mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                <div className="d-flex align-items-center">
-                                <img className="testuser-img" src={team} alt="user-img"></img>
-                                    <div className="testproinfodiv pl-3">
-                                        <p className="testproname">Roger Scott</p>
-                                        <span className="testprodesi">Marketing Manager</span>
+                </div>
+            </div>
+
+            <div className="container">
+                 <div className="row">
+                    <div className="col">
+                        <div className="  testimonial-card"> 
+                        <div className="item" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                            <div className="testimony-wrap py-4">
+                                <div className="icon d-flex align-items-center justify-content-center  item-i">
+                                    <i className="fa fa-quote-left"/>
                                     </div>
-                                </div>
-                                </div>
-                            </div>
-                    </div> 
-                    </div> 
+                                    <div className="text">
+                                        <p className="testcardtxt mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <div className="d-flex align-items-center">
+                                        <img className="testuser-img" src={team} alt="user-img"></img>
+                                            <div className="testproinfodiv pl-3">
+                                                <p className="testproname">Roger Scott</p>
+                                                <span className="testprodesi">Marketing Manager</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                            </div> 
+                        </div> 
+                    </div>
                 </div>
             </div>
                

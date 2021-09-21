@@ -5,17 +5,13 @@
 .mainnavbar{
     background-color: white;
 }
-.head-sales{
-    color: white;
-}
+.head-sales{  color: white;}
 .head-social{
     float: right;
     color: white;;
 }
-.headfirstrow{
-    border-bottom: 0.1px solid white;;
-    height: 30px;
-}
+.topnaviconscol{text-align: end;}
+.headfirstrow{height: 30px;}
 .mailicon{
     padding-right: 1%;
 }
@@ -33,10 +29,6 @@
 
 .topnavphicon{margin-right: 2px;}
 
-
-
-
-
 /* Navbar css */
 .headlogo{
     height: 60px;
@@ -45,13 +37,15 @@
 .navbar-expand-lg .navbar-collapse {
     justify-content: end;}
 .navbar-dark .navbar-nav .nav-link {
-        color: black;}
+        color: black;
+        font-weight: 700;
+    }
 .navbar-dark .navbar-nav .nav-link:hover {
-            color: royalblue;
+            color: #30a6e9;
         }
 .navbar-dark .navbar-toggler {
             color: black;
-            border-color: red;
+            border-color: #30a6e9; 
         }
 .navbar-toggler {background-color: black;}
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
@@ -60,17 +54,21 @@
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav {
     color:royalblue;
 }
-.navbar-dark .navbar-nav .nav-link a{color: black;}
-.navbar-dark .navbar-nav .nav-link a:hover{color: royalblue;}
+.navbar-dark .navbar-nav .nav-link a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar-dark .navbar-nav .nav-link a:hover{color:#30a6e9 ;}
 
 /* Drop down css */
 .dropdown {
     position: relative;
     display: inline-block;
   }
-  .dropdown-content {
-    width: 1000px;
-    height: 400px;
+.dropdownservice {
+    width: 200px;
+    height: 150px;
     right: 0;
     display: none;
     position: absolute;
@@ -79,16 +77,26 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 100;
-  }
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .blogmodelfirst{
-      color: black;
-      border-bottom: 2px solid #30a6e9;
-      font-weight: bold
-  }
-  .blogmodelicon{
+ }
+.dropdown:hover .dropdownservice {display: block;}
+.dropdownservice a{ text-decoration: none;}
+.dropdownabout{
+    width: 200px;
+    height: 280px;
+    right: 0;
+    display: none;
+    position: absolute;
+    background-color: white!important;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 100;
+}
+.dropdown:hover .dropdownabout {display: block;
+}
+.dropdownabout a{ text-decoration: none;}
+.dropdown:hover .dropdownabout { display: block;}
+.blogmodelicon{
       display: flex;
       margin-top: 10%;
   }
@@ -97,28 +105,50 @@
       font-size: 20px;
     color:#30a6e9;}
 .blogmodeltxt{
-    margin-left: 12%;
+    margin-left: 5%;
+    font-size: 12px;
     color: black;
     font-weight: bold;
 }
-
- 
-
-
-
-
+.blogmodelicon :hover{
+    transition: all .2s ease-in-out;
+    left: -13px;
+    padding-left: 18px;
+    padding-right: 0;
+}
 
 /* Media queries fro top nav */
+
+/* DropDown of Service responsiveness */
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .dropdownservice { right: 15%;}}
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+    .dropdownservice { right: 20%;}}
+@media only screen and (min-width: 425px) and (max-width: 600px) {
+    .dropdownservice { right: 23%;}}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .dropdownservice { right: 30%;}}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+        .dropdownservice { right: 35%;}}
+
+ /* dropdownabout of responsive */
+ @media only screen and (min-width: 320px) and (max-width: 375px) {
+    .dropdownabout { right: 15%;}}
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+    .dropdownabout { right: 20%;}}
+@media only screen and (min-width: 425px) and (max-width: 600px) {
+    .dropdownabout { right: 23%;}}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .dropdownabout { right: 30%;}}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .dropdownabout { right: 35%;}}
+
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     .head-cont {   float: none;}
-    .headsocials {
-        margin-left: 0px;
-    }
+    .headsocials {margin-left: 0px;}
     .headfirstrow {height: 60px;}
     .headfacebbok { padding: 0 7px;} 
 }
 @media only screen and (min-width: 575px) and (max-width: 700px) {
-    .headsocials {
-        margin-left: 69%;
-    }
+    .headsocials { margin-left: 69%;}
 }

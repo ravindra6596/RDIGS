@@ -1,0 +1,73 @@
+
+.blog-banner{
+    height: 80vh;
+    width: 100%;
+}
+.heading-primary-blog {
+    color:black;
+    text-transform: uppercase;
+}
+
+.heading-primary-main-blog {
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 10px;
+   /*  Animation decalaration   */
+    animation-name: moveInleft;
+    animation-duration: 3s;
+}
+
+.heading-primary-sub-blog {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 15.9px;
+    padding: 30px;
+    animation-name: moveInRight;
+    animation-duration: 3s;
+}
+.card-general{
+    margin:20px;
+    box-shadow: 5px 5px 5px 5px lightblue;
+    height:500px;
+}
+.card-img-top{
+    position: relative;
+    /* box-shadow: 5px 5px 1px 1px lightblue; */
+}
+.round-div-card{
+    position: sticky;
+    border-radius:50%;
+    width:120px;
+    height:120px;
+    background-color: whitesmoke;
+    margin-top: -53px;
+    margin-left: 95px;
+    text-align: center;
+    border: 3px solid gray;
+    /* box-shadow: 2px 2px 2px 2px lightblue; */
+}
+.round-div-card:hover{
+    background-color: lightgray;
+}
+.card-blog-title{
+    color: blue;
+}
+.card-text{
+    font-size: 20px;
+    font-weight: 500;
+}
+/* responsive */
+/* @media only screen and (min-width: 320px) and (max-width: 330px) {
+.round-div-card{margin-left:60px;}
+}
+@media only screen and (min-width: 331px) and (max-width: 483px) {
+.round-div-card{margin-left:120px;}
+}
+@media only screen and (min-width: 484px) and (max-width: 575px) {
+.round-div-card{margin-left:180px;}
+}
+@media only screen and (min-width: 764px) and (max-width:991px) {
+.round-div-card{margin-left:25px;}
+} */

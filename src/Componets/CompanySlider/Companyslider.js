@@ -29,60 +29,101 @@ const Companyslider=()=>{
     autoplay: true,
     autoplaySpeed: 2000,
     variableWidth: true,
-    responsive: [
-      {
-        breakpoint: 767,
-        settings: {
-          draggable: true,
-          swipeToSlide: true,
-          touchMove: true
+//     responsive: [
+//       {
+//         breakpoint: 767,
+//         settings: {
+//           draggable: true,
+//           swipeToSlide: true,
+//           touchMove: true
+//         }
+//       }
+//     ]
+responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+          
+        },
+        {
+            breakpoint: 320,
+             settings: {
+              slidesToShow: 1,
+               slidesToScroll: 1
+                }    
         }
-      }
-    ]
+      
+]
+
+
+
+
   };
     return(
         <>
           
         <section className="clients">
-            <Slider {...settings}>
+                <div className="container">
+                         <Slider {...settings}>
 
-                <div className="image-clientslider">
-                        <img src={client1} alt="Client"></img>
+                                <div className="image-clientslider">
+                                        <img src={client1} className="img-fluid" alt="Client"/>
+                                </div>
+                                <div className="image-clientslider">
+                                        <img src={client2} className="img-fluid" alt="Client"/>
+                                </div>
+                                <div className="image-clientslider">
+                                        <img src={client3} alt="Client"/>
+                                </div>
+                                <div className="image-clientslider">
+                                        <img src={client4} className="img-fluid" alt="Client"/>
+                                </div>
+                                <div className="image-clientslider">
+                                        <img src={client5} className="img-fluid" alt="Client"/>
+                                </div>
+                                <div className="image-clientslider">
+                                        <img src={client6} className="img-fluid" alt="Client"/>
+                                </div>
+                                <div className="image-clientslider">
+                                        <img src={client7} className="img-fluid" alt="Client"/>
+                                </div>
+                                <div className="image-clientslider">
+                                        <img src={client8} className="img-fluid" alt="Client"/>
+                                </div>
+                                <div className="image-clientslider">
+                                        <img src={client9} className="img-fluid" alt="Client"/>
+                                </div>
+                                <div className="image-clientslider">
+                                        <img src={client10} className="img-fluid" alt="Client"/>
+                                </div>
+                                <div className="image-clientslider">
+                                        <img src={client11} className="img-fluid" alt="Client"/>
+                                </div>
+                                <div className="image-clientslider">
+                                        <img src={client12} className="img-fluid" alt="Client"/>
+                                </div>
+                        </Slider>     
                 </div>
-                <div className="image-clientslider">
-                        <img src={client2} alt="Client"></img>
-                </div>
-                <div className="image-clientslider">
-                        <img src={client3} alt="Client"></img>
-                </div>
-                <div className="image-clientslider">
-                        <img src={client4} alt="Client"></img>
-                </div>
-                <div className="image-clientslider">
-                        <img src={client5} alt="Client"></img>
-                </div>
-                <div className="image-clientslider">
-                        <img src={client6} alt="Client"></img>
-                </div>
-                <div className="image-clientslider">
-                        <img src={client7} alt="Client"></img>
-                </div>
-                <div className="image-clientslider">
-                        <img src={client8} alt="Client"></img>
-                </div>
-                <div className="image-clientslider">
-                        <img src={client9} alt="Client"></img>
-                </div>
-                <div className="image-clientslider">
-                        <img src={client10} alt="Client"></img>
-                </div>
-                <div className="image-clientslider">
-                        <img src={client11} alt="Client"></img>
-                </div>
-                <div className="image-clientslider">
-                        <img src={client12} alt="Client"></img>
-                </div>
-            </Slider>          
+                
         </section>
         </>
     )

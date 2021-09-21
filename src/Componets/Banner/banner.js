@@ -20,7 +20,7 @@ const Banner = () => {
                             <span class="heading-primary-main" >RD INFO GLOBAL SOLUTIONS</span>
                             <span class="heading-primary-sub">BPO</span>
                         </h1>
-                        <Button text="Know More" fun={() => setModal(true)} />
+                       
                     </div>
                 </div>
                 <Modal className="custom-modal-style" show={modal}>

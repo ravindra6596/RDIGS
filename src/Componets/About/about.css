@@ -1,0 +1,42 @@
+.aboutsecbackimg{
+    background-image:url("../../img/aboutbackimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.aboutsecimg{
+    width: 500px;
+    height: 300px;
+    padding: 5%;
+}
+.aboutwherewe{
+    color: #30a6e9;
+    margin: 5%;
+    margin-top: 10%;
+    text-align: left;
+}
+.aboutpara{
+    font-size: 20px;
+    margin: 5%;
+    text-align: left;
+}
+@media only screen and (min-width: 320px) and (max-width: 574px) {
+    .aboutsecimg {height: 200px!important;}
+    .aboutpara {font-size: 15px;}
+}
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+    .aboutsecimg {height: 200px!important;    
+        margin-top: 20%;}
+    .aboutpara { font-size: 13px;}
+    .aboutsecbackimg{height: 525px;}      
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .aboutsecbackimg {
+        height: 301px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+    .aboutpara {
+        font-size: 16px;
+        margin: 5%;}
+    .aboutsecbackimg {height: 300px;}
+}

@@ -1,0 +1,79 @@
+.CompanyProfile-section{
+    background-color: lightblue;
+    height: 80vh;
+}
+.why-chooseus{
+    padding: 30px;
+}
+.rounded-company-icon{
+    border-radius: 50%;
+    background-color: #2196f3;
+    /* width: 150px;
+    height: 150px; */
+    width: 30%;
+    height: 30%;
+    margin-top: 50px;
+}
+.rounded-company-icon i{
+    margin-top: 30px;
+    font-size: 50px;
+    color:white;
+}
+.CompanyProfile-para1{
+    text-align: left;
+    font-size: 20px;
+}
+.CompanyProfile-icon-heading{
+    text-align: left;
+    padding:20px;
+}
+
+/* Circle animation */
+/* .rounded-company-icon {
+	position: relative;
+}
+.rounded-company-icon::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(255,255,255,.2);
+	border-radius: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+.rounded-company-icon:hover::before {
+	-webkit-animation: circle .75s;
+	animation: circle .75s;
+}
+@-webkit-keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+} */

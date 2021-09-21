@@ -1,25 +1,26 @@
 /* css for media kit */
 .media-kit{
     background-color:#1c1f1f;
-    height:200px;
+    height:250px;
 }
+.mediakithead{ margin-top: 20px;
+    text-align: justify;}
 .media-kit p{
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 17px;
     text-align: justify;
+    word-spacing: -2px;
+
 }
 .download-button{
     margin-top: 60px;
     border-radius: 25px;
     color:white;
     border: 2px solid black;
-    background-color:#4154f1;
+    background-color:#30a6e9;
 }
 .footer-cont{
     background-color: black;
 }
-.footer-cont h1{ margin-top: 20px;
-text-align: justify;}
 .footaddmapicon{
     color: white;
     font-size: 20px;
@@ -28,27 +29,29 @@ text-align: justify;}
     color: white;
     font-size: 15px;
     padding-left: 14px;
-    font-weight: 700;
+    word-spacing: -3px;
 }
 .Email-info{
     padding-left: 14px;
-    font-weight: 700;
+}
+.footemailimg{
+    width: 30px;
 }
 /* css for RD info p */
 .text-footer-info{
-  text-align: initial;
-  padding-left: 5%;
+  text-align: left;
+  font-weight: 400;
 }
 .footer-tit{
-    padding: 10px;
+    padding-right: 35%;
     font-size: 20px;
 }
 .footer-row{
-    padding: 20px;
+    padding: 20px 0;
 }
 /* css for contact us */
 .contactus-footer{
-    padding: 10px;
+    padding-bottom: 10px;
     font-size: 20px;
     text-align: initial;
 }
@@ -56,11 +59,16 @@ text-align: justify;}
     float: left;
     font-weight: 900;
 }
-
+.services li:hover{
+    transition: all .2s ease-in-out;
+    left: -13px;
+    padding-left: 18px;
+    padding-right: 0;
+}
 .img-ind , .img-us{
     float: left;
     width:30px;
-    height:15px;
+    height:20px;
 }
 .hr-line{
     margin-top: 10px;
@@ -75,56 +83,52 @@ text-align: justify;}
     margin-bottom: 10px;
     border: 0;
     border-top: 1px solid #7a7a7a;
-    width: 300px;  
+    width: 250px;  
 }
 /* css for services */
 .services {
     line-height: 0px;
     color:white;
     list-style: none;
-    padding: 10px;
+    padding: 10px 0;
 }
 .services i{
     color:white;
 }
 .services a:hover{
     color: white; 
+    text-decoration: none;
 }
 .services-webdevlopment{
     color: white;
     text-decoration: none;
 }
-#arrow2 {
-    margin-left: 45px;
-}
-#arrow3{
-    margin-left: 65px;
-}
-#arrow4{
-    margin-left: 20px;
-}
-#arrow5{
-    margin-left: 22px;
-}
-#arrow6{
-    margin-left: 45px;
-}
-.services-webdevlopment{
-  padding: 10px;
-  font-size: 15px;
-  font-weight: 700;
-}
-.services-webdevlopment :hover{
-    color:white;
-}
+#arrow1{margin-right: 7px;}
+#arrow2 { margin-left: 35px;}
+#arrow3{margin-left: 60px;}
+#arrow4{margin-left: 12px;}
+#arrow5{margin-left: 22px;}
+#arrow6{margin-left: 45px;}
+.services-webdevlopment{font-size: 15px;}
+.services-webdevlopment :hover{ color:white;}
 /* css for copyright */
 .copyright-center{
     color:white;
+    text-align: initial;
 }
-.copyright-container{
-    background-color:#1c1f1f;
+.copyright-section{
+    background-color: #1c2025;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
+.copyrighttxt{
+    color:#30a6e9 ;
+    font-size: 13px;
+    padding-left: 16px;
+}
+.copyrighttxt:hover{
+    color: #266a91;
+}
 /* css for footerlinks */
 .footer-links{
     list-style: none;
@@ -134,7 +138,6 @@ text-align: justify;}
 .footer-newsletter p {
     padding: 10px;
     font-size: 15px;
-    font-weight: 700;
 }
 .newsletter-input1{
     border-top-left-radius: 25px;
@@ -147,11 +150,11 @@ text-align: justify;}
 .subscribe-footer{
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    height: 40px;
-    background-color:#30a6e9;
-    color:white;
+    height: 39px;
+    background-color: #30a6e9;
+    color: white;
     border-style: none;
-    width: 90px;
+    width: 100px
 }
 
   /* css for social link */
@@ -180,11 +183,7 @@ text-align: justify;}
     opacity: 1;
 }
 .back-to-top:hover {
-    background: #e65d5f;
     color: #fff;
-}
-a:hover {
-    color: #e76668;
     text-decoration: none;
 }
 .back-to-top a:-webkit-any-link {
@@ -198,8 +197,7 @@ a:hover {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #4154f1;
-    /* #e03a3c */
+    background: #30a6e9;;
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -211,11 +209,14 @@ a:hover {
 .back-to-top i {
     font-size: 28px;
     color: #fff;
-    line-height: 0;
-    
-    
+    line-height: 0; 
 }
 .back-to-top.active {
     visibility: visible;
     opacity: 1;
 }
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+    .newsletter-input1 {width: 52%;}
+}
+
+    
