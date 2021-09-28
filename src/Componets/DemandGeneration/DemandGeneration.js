@@ -4,11 +4,6 @@ import Header from '../Header/header';
 import Footer from '../Footer/Footer';
 import Button from '../ButtonGroup/Button/button';
 import demad2 from '../../img/services/demad2.png';
-import v6 from '../../img/services/v6.png';
-import v7 from '../../img/services/v7.png';
-import v8 from '../../img/services/v8.png';
-import v9 from '../../img/services/v9.png';
-import v10 from '../../img/services/v10.png';
 import service1 from '../../img/services/service1.jpg';
 import service2 from '../../img/services/service2.jpg';
 import service3 from '../../img/services/service3.jpg';
@@ -21,10 +16,10 @@ const DemandGeneration=()=>{
     return(
         <>
        <Header/>
-        <section className="Demand-Generation-Sec">
+        <section className="Demand-Generation-Sec" style={{marginTop:'8%'}}>
             <div className="container">     
                     <div className="text-center heading-demand">
-                       <h3 className="text-center Demand-heading-top">Demand Generation</h3>
+                       <h1 className="text-center Demand-heading-top">Demand Generation</h1>
                     </div>
                 <div className="row">
                     <div className="col-sm-6 col-md-6 col-lg-6">

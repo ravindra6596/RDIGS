@@ -63,7 +63,7 @@ const Testimonial=()=>{
                 <div className="row justify-content-center mb-5">
                     <div className="col-md-7 text-center heading-section heading-section-white ftco-animate testimonial-heading">
                     <span className="subheading">Testimonial</span>
-                    <h2 className=" testimonialkinds mb-3">Kinds Words From Clients</h2>
+                    <h1 className=" testimonialkinds mb-3">Kinds Words From Clients</h1>
                     </div>
                 </div> 
             </div>

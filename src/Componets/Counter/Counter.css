@@ -7,7 +7,8 @@
     width: 100%;
     height: 150px;
     background: #fff;
-    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    box-shadow: 2px 2px 8px 1px #30a6e9;
+    border-radius: 45px 0 50px 0;
   } 
 .count-box i {
     font-size: 42px;
@@ -25,8 +26,17 @@
 .count-box p {
     padding: 0;
     margin: 0;
-    font-family: "Nunito", sans-serif;
     font-size: 14px;
+  }
+  .counter_founded{
+    margin-left:70px;
+  }
+  .counter-F i{
+    margin-top: -145px;
+    margin-left: 95px;
+  }
+  .countpoject-para{
+    margin-left:10px;
   }
 .Happy-Clients i{
     color: #ee6c20;

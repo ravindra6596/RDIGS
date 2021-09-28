@@ -51,13 +51,13 @@
     top: -45px;
 }
 .testimonial-heading{
-    margin-top: 5%;
-    color: white;
-    font-size: 25px;
-    font-weight: 600;
+    color: #30a6e9;
+    margin: 5%;
+    margin-top: 10%;
+    text-align: left;
 }
 .testimonial-heading span{
-    color:white;
+    color:#30a6e9;
 }
 
 .card-top{

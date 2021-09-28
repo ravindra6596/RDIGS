@@ -6,6 +6,7 @@ import team2 from '../../img/team/team-2.jpg';
 import team3 from '../../img/team/team-3.jpg';
 import team4 from '../../img/team/team-4.jpg';
 import Rolandimg from '../../img/team/Roland-Dcosta.jpg';
+import Footer from '../Footer/Footer';
 
 
 
@@ -14,7 +15,7 @@ const teams =()=>{
     <>
         <Headers/>
 
-        <div className="container" style={{backgroundColor:'rgba(118, 206, 233, 0.35)',boxShadow:'0 4px 8px 0 #30a6e9, 0 6px 20px 0 #30a6e9',marginTop:'3%'}}>
+        <div className="container" style={{backgroundColor:'rgba(118, 206, 233, 0.35)',boxShadow:'0 4px 8px 0 #30a6e9, 0 6px 20px 0 #30a6e9',marginTop:'8%'}}>
             <div className="row">
                 <div className="col-lg-8 col-md-8 col-sm-8 rolandiconcol" style={{textAlign:'justify'}}>
                     <h2 className="rolandname" data-aos="fade-up">Roland D'costa</h2>
@@ -35,7 +36,7 @@ const teams =()=>{
             <section id="team" class="team section-bg" style={{marginTop:'3%'}}>
             <div class="container" data-aos="fade-up">
                 <div class="section-title">
-                <h2  style={{color:'#30a6e9'}}>Team</h2>
+                <h1  style={{color:'#30a6e9'}}>Team</h1>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
                 </div>
 
@@ -134,11 +135,9 @@ const teams =()=>{
                 </div>
 
                 </div>
-
             </div>
             </section>
-          
-    {/* <!-- End Team Section --> */}
+            <Footer/>
      
        
 

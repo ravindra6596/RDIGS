@@ -1,25 +1,20 @@
-.aboutsecbackimg{
-    background-image:url("../../img/aboutbackimg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-}
-.aboutsecimg{
+.aboutsecimg:hover{
+    opacity: 0.7;
     width: 500px;
-    height: 300px;
-    padding: 5%;
 }
 .aboutwherewe{
     color: #30a6e9;
     margin: 5%;
     margin-top: 10%;
     text-align: left;
+    border-bottom: 4px solid #30a6e9;
 }
 .aboutpara{
     font-size: 20px;
     margin: 5%;
     text-align: left;
 }
+
 @media only screen and (min-width: 320px) and (max-width: 574px) {
     .aboutsecimg {height: 200px!important;}
     .aboutpara {font-size: 15px;}

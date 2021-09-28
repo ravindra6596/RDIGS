@@ -30,10 +30,10 @@ const Gallery=()=>{
     return(
     <>
         <Header/>
-        <section class="Gallery-section">
+        <section class="Gallery-section"style={{marginTop:'8%'}}>
 			  <div class="container">
                                 <div class="text-center heading-gallery1">
-                                <h2 className="text-center heading-gallary">Gallery</h2>
+                                <h1 className="text-center heading-gallary">Gallery</h1>
                                </div>
 				           </div>
                 <div className="row gallary-section1">

@@ -2,9 +2,16 @@
     color: #fff;
     background-color:  #30a6e9;
     border-radius: 20px;
+    border-color:#30a6e9 ;
+    font-weight: 500;
+
 }
 .btn-primary:hover{
     opacity: 1;
     background-color: #6cbeee;
-    border: #30a6e9;
+    border-color: #0062cc;
 }
+.btn-primary:focus {
+    color: #fff;
+    background-color: #6cbeee;;
+    border-color: #0062cc;}

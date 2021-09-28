@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <div className="main"  style={{marginTop:"130px", overflow:"hidden"}}>
+        <div className="main"style={{overflow:"hidden"}} > 
           <Switch>
               <Route path='/' exact={true} component={Homepage}/>
               <Route path='/header' exact={true} component={Header}/>

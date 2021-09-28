@@ -12,8 +12,8 @@ import career3 from "../../img/career/career-3.png";
 const careers =()=>{
     return(
     <>
-              <Headers/>
-    
+              <Headers/> 
+            <section style={{marginTop:'8%'}}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-md-12 col-sm-12">
@@ -69,7 +69,7 @@ const careers =()=>{
                     </div> 
                 </div>
             </div>
-
+            </section>
         <CareerAccordian/>          
     <Footer/> 
 

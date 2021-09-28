@@ -1,132 +1,48 @@
-.portfolio .portfolio-item {
-    margin-bottom: 30px;
+input:focus {
+  outline: none !important;
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-top: 6%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   }
-  
-  .portfolio #portfolio-flters {
-    padding: 0;
-    margin: 0 auto 20px auto;
-    list-style: none;
-    text-align: center;
+  .homemodalhead{
+    border: none;
+    background-color: lightblue;
   }
-  
-  .portfolio #portfolio-flters li {
-    cursor: pointer;
-    display: inline-block;
-    padding: 8px 15px 10px 15px;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1;
-    text-transform: uppercase;
-    color: #444444;
-    margin-bottom: 5px;
-    transition: all 0.3s ease-in-out;
-    border-radius: 3px;
+  .homemodalinput {
+    text-decoration: none;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    padding: 5px 15px;
+    width: 250px;
   }
-  
-  .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-    color: #fff;
+  .homemodalAgree{
+    margin-left: 2%;
+    font-weight: 200;
+    font-size: 11px;
+    color: #545151f2;
   }
-  
-  .portfolio #portfolio-flters li:last-child {
-    margin-right: 0;
-  }
-  
-  .portfolio .portfolio-wrap {
-    transition: 0.3s;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    border-radius: 15px;
-    
-  }
-  
-  .portfolio .portfolio-wrap::before {
-    content: "";
-    background: rgba(17, 17, 17, 0.6);
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    transition: all ease-in-out 0.3s;
-    z-index: 2;
-    opacity: 0;
-  }
-  
-  .portfolio .portfolio-wrap img {
-    transition: all ease-in-out 0.3s;
-  }
-  
-  .portfolio .portfolio-wrap .portfolio-info {
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 3;
-    transition: all ease-in-out 0.3s;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .portfolio .portfolio-wrap .portfolio-info h4 {
-    font-size: 20px;
-    color: #fff;
-    font-weight: 600;
-  }
-  
-  .portfolio .portfolio-wrap .portfolio-info p {
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 14px;
-    text-transform: uppercase;
-    padding: 0;
-    margin: 0;
-    font-style: italic;
-  }
-  
-  .portfolio .portfolio-wrap .portfolio-links {
-    text-align: center;
-    z-index: 4;
-  }
-  
-  .portfolio .portfolio-wrap .portfolio-links a {
-    color: rgba(255, 255, 255, 0.4);
-    margin: 0 5px 0 0;
-    font-size: 28px;
-    display: inline-block;
-    transition: 0.3s;
-  }
-  
-  .portfolio .portfolio-wrap .portfolio-links a:hover {
-    color: #fff;
-  }
-  
-  .portfolio .portfolio-wrap:hover::before {
-    opacity: 1;
-  }
-  
-  .portfolio .portfolio-wrap:hover img {
-    transform: scale(1.2);
-  }
-  
-  .portfolio .portfolio-wrap:hover .portfolio-info {
-    opacity: 1;
-  }
+ .homemodalbody{
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+.homemodalclosebtn{
+  color: lightblue;
+  margin-left: 94%;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 1%;
+}
+.homemain-modalimg {height: 270px;}
+
   .homepagese2cont{
     margin: 3%  0px;
     background-image: linear-gradient(to left, rgb(43, 50, 53) 0%, rgb(48, 166, 233) 100%); 
   }
-.videose2{
-  margin-bottom: 8%!important;
-  margin-top: 10%;
-}
-
-
-  .homesec3img{
+.homesec3img{
     margin-top: 10%;
     animation: MoveUpDown 1s linear infinite;
     position: absolute;
@@ -152,13 +68,6 @@
     100% { transform: translateY(0); }
   }
 
-.provmethodtxt{
-  color:#30a6e9;
-  position: relative;
-  animation-name: example;
-  animation-duration: 4s;
-  padding: 3%;
-  }
 @keyframes example {
   0%   { left:0px; top:0px;}
   25%  { left:200px; top:0px;}
@@ -167,3 +76,8 @@
     font-size: 15px;
     color: black;
   }
+/* Main Modal responsive */
+@media only screen and (min-width: 320px)and (max-width: 575px){
+  .homemain-modalimg {height: 270px;
+  width: 800px;}
+}

@@ -6,13 +6,13 @@ const CompanyProfile1=()=>{
     return(
         <>
         <Header/>
-        <section className="CompanyProfile-section">
+        <section className="CompanyProfile-section"style={{marginTop:'8%'}} >
             <div className="container">
-                <div className="row">
-                    <h2 className="text-center why-chooseus">WHY CHOOSE US</h2>
-                        <div className="col-sm-6 col-md-6 col-lg-3 col-xs-6">
+            <h1 className="text-center why-chooseus">Why We Choose Us</h1>
+                <div className="row row-companyprofile">
+                        <div className="col-sm-3 col-md-3 col-lg-3 col-xs-6">
                             <div className="rounded-company-icon"data-aos="fade-up"data-aos-anchor-placement="center-bottom">
-                                <i class="fas fa-award" aria-hidden="true"></i>
+                            <i class="fa fa-trophy fa-spin fa-3x"></i>
                             </div>
                             <div className="company-profile-paragraph">
                                 <h5 className="CompanyProfile-icon-heading" data-aos="fade-down">Always Available</h5>
@@ -22,9 +22,9 @@ const CompanyProfile1=()=>{
                                 </p>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-6 col-lg-3 col-xs-6">
+                        <div className="col-sm-3 col-md-3 col-lg-3 col-xs-6">
                         <div className="rounded-company-icon" data-aos="fade-up"data-aos-anchor-placement="center-bottom">
-                                <i class="fa fa-play" aria-hidden="true"></i>
+                                <i class="fa fa-play fa-pulse fa-spin fa-3x" aria-hidden="true"></i>
                             </div>
                             <div className="company-profile-paragraph">
                             <h5 className="CompanyProfile-icon-heading" data-aos="fade-down">Qualified Agents</h5>
@@ -32,12 +32,11 @@ const CompanyProfile1=()=>{
                                 All our team members are high-qualified, educated and skilled agents.
                                      All of them are being trained according to the latest technologies.&nbsp;
                                 </p>
-                                
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-6 col-lg-3 col-xs-6">
+                        <div className="col-sm-3 col-md-3 col-lg-3 col-xs-6">
                         <div className="rounded-company-icon" data-aos="fade-up"data-aos-anchor-placement="center-bottom">
-                                <i class="fas fa-hand-holding-usd" aria-hidden="true"></i>
+                                <i class="fa fa-list fa-spin fa-3x" aria-hidden="true"></i>
                             </div>
                             <div className="company-profile-paragraph">
                             <h5 className="CompanyProfile-icon-heading" data-aos="fade-down">Fair Prices</h5>
@@ -49,7 +48,7 @@ const CompanyProfile1=()=>{
                         </div>
                         <div className="col-sm-6 col-md-6 col-lg-3 col-xs-6">
                             <div className="rounded-company-icon" data-aos="fade-up"data-aos-anchor-placement="center-bottom">
-                                <i class="fas fa-thumbs-up" aria-hidden="true"></i>
+                                <i class="fa fa-thumbs-up fa-pulse fa-spin fa-3x" aria-hidden="true"></i>
                             </div>
                             
                             <div className="company-profile-paragraph">

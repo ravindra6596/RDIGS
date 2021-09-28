@@ -4,12 +4,6 @@ import Header from '../Header/header';
 import Footer from '../Footer/Footer';
 import Button from '../ButtonGroup/Button/button';
 import Leadimg1 from '../../img/services/Leadimg1.png';
-
-import v1 from '../../img/services/v1.png';
-import v2 from '../../img/services/v2.jpg';
-import v3 from '../../img/services/v3.png';
-import v4 from '../../img/services/v4.png';
-import v5 from '../../img/services/v5.png';
 import service1 from '../../img/services/service1.jpg';
 import service2 from '../../img/services/service2.jpg';
 import service3 from '../../img/services/service3.jpg';
@@ -22,10 +16,10 @@ const LeadGeneration=()=>{
     return(
         <>
         <Header/>
-         <section className="Lead-Generation-Sec">
+         <section className="Lead-Generation-Sec" style={{marginTop:'8%'}}>
             <div className="container">
                 <div className="text-center Lead-heading-top">
-                     <h3 className="text-center">Lead Generation</h3>
+                     <h1 className="text-center">Lead Generation</h1>
                 </div>
                 <div className="row">
                     <div className="col-sm-6 col-md-6 col-lg-6">
